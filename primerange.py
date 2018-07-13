@@ -2,7 +2,7 @@
 a = 20
 b = 30
 
-print("Prime numbers between",a,"and",b,"are:")
+print("")
 
 for num in range(a,b + 1):
 
