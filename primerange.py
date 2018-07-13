@@ -2,7 +2,7 @@
 a = 20
 b = 30
 
-print("")
+print("",end=" ")
 
 for num in range(a,b + 1):
 
