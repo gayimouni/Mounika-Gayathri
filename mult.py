@@ -1,3 +1,3 @@
-n=int(input())
+g=int(input())
 for i in range(1,5+1):
-    print(n*i,end=" ")
+    print(g*i,end=" ")
