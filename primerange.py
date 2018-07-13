@@ -1,9 +1,6 @@
 
 a = 20
 b = 30
-
-print("",end=" ")
-
 for num in range(a,b + 1):
 
    if num > 1:
@@ -11,4 +8,4 @@ for num in range(a,b + 1):
            if (num % i) == 0:
                break
        else:
-           print(num)
+           print(num,end" ")
