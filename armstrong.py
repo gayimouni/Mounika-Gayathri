@@ -7,9 +7,9 @@ def main():
      sum += dig ** 3
      temp //= 10
  if num == sum:
-     print("Yes")
+     print("yes")
  else:
-     print("No")
+     print("no")
 if __name__ == '__main__':
     main()
 
