@@ -18,7 +18,7 @@ int main()
 			  	arr[j]=temp;
 			  }
 	for(i = 0; i < q; i++)
-    	no=(num*10)+arr[i];
+    	num=(num*10)+arr[i];
     	
-    	printf("%ld",no);
+    	printf("%ld",num);
 }
