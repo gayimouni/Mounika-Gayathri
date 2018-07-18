@@ -4,20 +4,20 @@
 
 int main() 
 {
-    long int arr[100000],q,i,j,no=0,temp; 
+    long int arr[100000],q,m,n,no=0,temp; 
     scanf("%d", &q);
-     for(i = 0; i < q; i++)
-       scanf("%ld",&arr[i]);
+     for(m = 0; m< q; m++)
+       scanf("%ld",&arr[m]);
 	 
-	 for (i = 0; i < q-1; i++)      
-		for (j = 0; j < q-i-1; j++) 
-           if (arr[j] < arr[j+1])
-              {	temp =arr[j+1];
-			  	arr[j+1]=arr[j];
-			  	arr[j]=temp;
+	 for (m = 0; m < q-1; m++)      
+		for (n = 0; n < q-m-1; m++) 
+           if (arr[n] < arr[n+1])
+              {	temp =arr[n+1];
+			  	arr[n+1]=arr[n];
+			  	arr[n]=temp;
 			  }
-	for(i = 0; i < q; i++)
-    	no=(no*10)+arr[i];
+	for(m = 0; m< q; m++)
+    	no=(no*10)+arr[m];
     	
     	printf("%ld",no);
 }
