@@ -1,3 +1,3 @@
-    a=str(input())
-    print(a[::-1])
+    g=str(input())
+    print(g[::-1])
 
