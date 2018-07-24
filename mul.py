@@ -1,4 +1,4 @@
-f=int(input("enter the number"))
+f=int(input())
 x=1
 i=1
 while f>0:
