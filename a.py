@@ -1,3 +1,3 @@
-a=str(input("" ))
+g=str(input("" ))
 print("" )
-print(a[::-1])
+print(g[::-1])
